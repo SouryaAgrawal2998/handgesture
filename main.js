@@ -24,7 +24,7 @@ function speak(){
     var utterThis= new SpeechSynthesisUtterance(speak_data);
     synth.speak(utterThis);
 }
-function check(){
+function check1(){
     img= document.getElementById("captured_image");
     classifier.classify(img, gotResult);
 }
